@@ -1,0 +1,162 @@
+html, body {
+    height: 100%; 
+    margin: 0;
+    display: flex;
+}
+
+
+#leftPannel{
+    height: 100%;
+    width: 30%;
+    background-color: #083D77;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.jaini-purva-regular{
+    font-family: "Jaini Purva", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#yourPersonalInfo{
+    color: #F4D35E;
+    font-family: 'Jaini Purva', sans-serif;
+    text-align: center;
+    padding-top: 13%;
+    padding-bottom: 4%;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.inputInfo{
+    border-radius: 20px;
+    width: 70%;
+    height: 30px;
+    font-family: "Nanum Myeongjo";
+    font-weight: 1000;
+    background-color: #D9D9D9;
+    color: #083D77;
+    text-align: center;
+    justify-content: center;
+}
+.inputInfo::placeholder {
+    color: #083D77;
+    font-weight: normal;
+    font-size: small; 
+}
+
+.semesterContainer{
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 70%; 
+    margin-bottom : 15px; 
+}
+#semesterNumberText{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 30px;
+    padding: 5px 10px;
+    font-family: "Nanum Myeongjo";
+    background-color: #D9D9D9;
+    color: #083D77;
+    font-size: small;
+    flex-grow: 1;
+    display: flex; 
+    align-items: center; 
+    justify-content: left;
+}
+
+#semesterNumberChoice{
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+    width: 50px;
+    height: 41px;
+    font-family: "Nanum Myeongjo";
+    background-color: #D9D9D9;
+    color: #083D77;
+    text-align: center;
+}
+
+#mainCalculator{
+    width: 70%;
+    height: 40px;
+    background-color: #F4D35E;
+    color: white;
+    border-radius: 20px;
+    font-family: "Jaini Purva";
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;              
+    justify-content: center; 
+    text-align: center;
+    align-items: center;
+    margin: 10px auto;
+    
+
+}
+#mainCalculator:hover{
+   background-color: #EE964B;
+}
+
+#rightPannel{
+    width: 70%;
+    border-color: #EBEBD3;
+    display: flex;
+    flex-direction: column;
+}
+
+#welcome{
+    color: #083D77;
+    font-family: "Jaini Purva";
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0%;
+    padding-top: 15%;
+    padding-left: 20%;
+}
+
+#CGPAcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+#CGPA{
+    color: #F4D35E;
+    font-family: "Jaini Purva";
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 0%;
+    padding-top: 0%;
+    padding-left: 20%;
+}
+
+#icon{
+    color: #083D77;
+    font-size: 40px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#paragraph{
+    color: #083D77;
+    font-family: "JejuMyeongjo";
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0%;
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: justify;
+}
+
+
+
+
